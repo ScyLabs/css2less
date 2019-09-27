@@ -5,6 +5,10 @@
 css2less
 ========
 
+This library has created by Remo Laubacher : remo.laubacher@ortic.com
+https://github.com/ortic/css2less
+This repository is just a re-upload of the package to put it on composer
+
 this library aims to convert CSS files into LESS files.
 
 Currently used by http://www.css2less.net/
