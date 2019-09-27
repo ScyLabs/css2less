@@ -1,0 +1,31 @@
+{
+    "name": "scylabs/css2less",
+    "description": "css to less converter",
+    "minimum-stability": "stable",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Remo Laubacher",
+            "email": "remo.laubacher@ortic.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.4",
+        "natxet/cssmin": "~3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0",
+        "satooshi/php-coveralls": "^2",
+        "nette/nette": "~2.1.3",
+        "apigen/apigen": "2.8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ortic\\Css2Less\\": "src/"
+        }
+    },
+    "bin": [
+        "bin/css2less.bat",
+        "bin/css2less"
+    ]
+}
