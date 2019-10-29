@@ -1,8 +1,8 @@
 {
     "name": "scylabs/css2less",
     "description": "css to less converter",
-    "minimum-stability": "stable",
-    "license": "proprietary",
+    "license": "MIT",
+    "version": "1.0.0",
     "authors": [
         {
             "name": "Remo Laubacher",
